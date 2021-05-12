@@ -1,0 +1,4 @@
+SHOW DATABASES;
+USE game_store;
+SHOW TABLES;
+DESC orders;
