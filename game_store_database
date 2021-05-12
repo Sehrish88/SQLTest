@@ -2,3 +2,64 @@ SHOW DATABASES;
 USE game_store;
 SHOW TABLES;
 DESC orders;
+
+INSERT INTO customers
+VALUES (1, "Tom Hardy", "thardy@gmail.com", 46, "1129"); 
+DESC customers
+;
+DESC customers;
+
+INSERT INTO customers
+VALUES ( 2, "Sara Brown", "sbrown@gmail.com", 56, "1129"); 
+
+ 
+ SELECT * FROM customers;
+ 
+ INSERT INTO customers
+VALUES ( 3, "Chris Sterling", "ssterling@gmail.com", 86, "06514"); 
+INSERT INTO customers
+VALUES ( 4, "Daria Abraham", "dabraham@gmail.com", 786, "90210"); 
+INSERT INTO customers
+VALUES ( 5, "Ginge Cline", "gcline@gmail.com", 422, "1129"); 
+
+SELECT * FROM customers;
+
+INSERT INTO products
+VALUES ( 1, "mirror01", 4.99, 100); 
+
+INSERT INTO products
+VALUES ( 2, "Mario Bros", 29.99, 100); 
+
+INSERT INTO products
+VALUES ( 3, "Spyro", 49.99, 100);
+
+INSERT INTO products
+VALUES ( 4, "Street Fighter", 59.99, 100);
+
+INSERT INTO products
+VALUES ( 5, "Resident Evil", 59.99, 100);
+
+SHOW * products;
+
+SELECT * FROM products;
+
+INSERT INTO orders
+VALUES ( 1, 1, "2021-02-07", 1, 5);	
+
+INSERT INTO orders
+VALUES ( 2, 1, "2021-05-07", 4, 3);	
+
+INSERT INTO orders
+VALUES ( 3, 2, "2021-05-11", 2, 4);
+
+INSERT INTO orders
+VALUES ( 4, 1, "2021-05-07", 5, 5);
+
+INSERT INTO orders
+VALUES ( 5, 1, "2021-05-10", 5, 1);
+
+
+
+
+
+
